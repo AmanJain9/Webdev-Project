@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:#F4F3FF;
+
+}
+
+.header-right
+{
+    background-color: white;
+}
+.navigation-bar{
+    background-color: white;
+list-style: none;
+display: flex;
+margin-left: 70rem;
+}
+.navigation-bar li {
+    margin: 2rem;
+    justify-content: space-evenly;
+
+
+} 
+.navigation-bar li a{
+    text-decoration:none;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    color:black;
+    font-weight: 100;
+    background-color: white;
+
+}
+
+
+.navigation-bar li a:hover{
+    color:#FF5757;
+}
+
+
+form{
+    max-width: 500px;
+border-radius:20px;
+margin: auto;
+background: rgba(0,0,0,0.3);
+box-sizing: border-box;
+padding: 40px;
+color: #fff;
+margin-top: 100px;
+box-shadow: 10px 10px 5px gray;
+}
+
+.t1
+{
+    width: 100%;
+box-sizing: border-box;
+padding: 12px 5px;
+background-color: white;
+outline: none;
+border: none;
+border-bottom: 1px solid #fff;
+color:black;
+border-radius: 5px;
+margin: 5px;
+font-weight: bold;
+}
+
+.b1
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background:#ff4d73;
+    opacity: o.4;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.b1:hover
+{
+    background: #EC5B53;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.home-button{
+    padding:10px ;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #ff4d73;
+    color:white;
+    border-style: none;
+}
+.home-button:hover{
+    background-color: white;
+    color: #ff4d73;
+    border-radius: 6px;
+}
+@media only screen and (max-width:760px)
+{
+.navigation-bar{
+    margin-left: 0rem;
+
+}
+.navigation-bar li {
+    margin: 1rem;
+    justify-content: space-evenly;
+
+
+} 
+.navigation-bar li a{
+    font-size: 0.6rem;
+}
+
+.home-button{
+    font-size: 0.6rem;
+}
+form{
+    max-width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+}
+}

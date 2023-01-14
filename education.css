@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+ 
+}
+
+.header-right
+{
+    background-color: white;
+}
+.navigation-bar{
+    background-color: white;
+list-style: none;
+display: flex;
+margin-left: 70rem;
+}
+.navigation-bar li {
+    margin: 2rem;
+    justify-content: space-evenly;
+
+
+} 
+.navigation-bar li a{
+    text-decoration:none;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    color:black;
+    font-weight: 100;
+    background-color: white;
+
+}
+.content-box{
+    background-color: #F4F3FF;
+}
+
+
+.navigation-bar li a:hover{
+    color:#FF5757;
+    
+}
+
+ .row-services
+{
+    background: #f4f3ff;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+   
+
+}
+
+.container h1
+{
+    text-align: center;
+    padding-top:100px;
+}
+h1::after
+{
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 50px;
+}
+ .icon
+{
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 18px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ff4d73;
+    border-radius: 50%;
+    color: #ff4d73;
+}
+ p
+{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #777;
+    padding: 20px;
+}
+
+ span
+{
+    color: #ff4d73;
+    transition: 0.5s;
+}
+
+
+
+ .col-md-3:hover
+{
+    background: #ff4d73;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition: 0.5s;
+}
+
+ .col-md-3:hover .icon
+{
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+
+.col-md-3:hover p
+{
+    color: #fff;
+
+}
+
+ .col-md-3:hover span
+{
+
+    color: #fff;
+
+}
+
+.aman1,.aman3{
+    margin-left:18rem;
+}
+.home-button{
+    padding:10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #ff4d73;
+    color:white;
+    border-style: none;
+}
+.home-button:hover{
+    background-color: white;
+    color: #ff4d73;
+    border-radius: 6px;
+}
+@media only screen and (max-width:760px)
+{
+.navigation-bar{
+    margin-left: 0rem;
+
+}
+.navigation-bar li {
+    margin: 1rem;
+    justify-content: space-evenly;
+
+
+} 
+.navigation-bar li a{
+    font-size: 0.6rem;
+}
+
+.home-button{
+    font-size: 0.6rem;
+}
+.container h1
+{
+    padding-top:30px;
+    font-size:25px;
+}
+h1::after
+{
+    margin: 10px auto 50px;
+}
+.aman1,.aman3{
+    margin-left:0rem;
+}
+.aman2,.aman4{
+    margin-left:0rem;
+}
+
+}

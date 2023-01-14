@@ -1,0 +1,164 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:white;
+
+}
+.header-right
+{
+    background-color: white;
+}
+.navigation-bar{
+    background-color: white;
+list-style: none;
+display: flex;
+margin-left: 70rem;
+}
+.navigation-bar li {
+    margin: 2rem;
+    justify-content: space-evenly;
+
+
+} 
+.navigation-bar li a{
+    text-decoration:none;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+    color:black;
+    font-weight: 100;
+    background-color: white;
+
+}
+
+
+.navigation-bar li a:hover{
+    color:#FF5757;
+}
+
+.main-content
+{
+    display:inline-flex;
+  max-height: 50rem;
+
+
+}
+
+.image-content{
+margin-top: 0rem;
+position: relative;
+margin-left:9rem;
+
+
+
+}
+
+.left-content
+{
+    color:black;
+    margin-top:10rem;
+    margin-left: 8rem;
+    
+    
+}
+
+.p1
+{
+    font-size: 45px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.p2
+{
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: grey;
+    text-align: left;
+}
+.footer-main{
+background-color: white;
+}
+span{
+    color: #ff4d73;
+}
+.hireme{
+margin-left:0rem;
+margin-top:20px;
+padding:10px ;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #ff4d73;
+    color:white;
+    border-style: none;
+}
+.hireme:hover{
+    background-color: white;
+    border:1px solid #ff4d73;
+    color: #ff4d73;
+    border-radius: 6px;
+}
+
+.home-button{
+    padding:10px ;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #ff4d73;
+    color:white;
+    border-style: none;
+}
+.home-button:hover{
+    background-color: white;
+    color: #ff4d73;
+    border-radius: 6px;
+}
+@media only screen and (max-width:760px)
+{
+.navigation-bar{
+    margin-left: 0rem;
+
+}
+.navigation-bar li {
+    margin: 1rem;
+    justify-content: space-evenly;
+
+
+} 
+.navigation-bar li a{
+    font-size: 0.6rem;
+}
+
+.home-button{
+    font-size: 0.6rem;
+}
+.left-content
+{
+    margin-top:3rem;
+    margin-left: 1.5rem;
+    
+    
+}
+
+.p1
+{
+    font-size: 20px;
+}
+
+.p2
+{
+  font-size: 15px;
+  
+}
+.hireme{
+        font-size: 0.8rem;
+    }
+    .image-content{
+        margin-top: 0rem;
+        position: relative;
+        margin-left:1rem;               
+        }
+}
